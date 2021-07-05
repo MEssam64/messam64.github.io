@@ -32,3 +32,19 @@ img.imgValidate {
     width: 88px;
     height: 31px
 }
+
+dt {
+    color: yellow;
+}
+
+dd {
+    color: coral;
+}
+
+p::first-letter {
+    float: left; 
+    width: 0.8em; 
+    font-size: 350%; 
+    font-family: algerian, courier; 
+    line-height: 80%;
+}
