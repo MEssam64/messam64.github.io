@@ -1,0 +1,52 @@
+.header {
+  background-color: aquamarine;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 48pt;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: darkgreen;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 48pt;
+  font-weight: bold;
+}
+
+.menu {
+  background-color: darkgreen;
+  vertical-align: middle;
+  text-align: center;
+  font-weight: bold;
+}
+
+.menuitem {
+  padding: 10px;
+  font-size: large;
+  border: 1px solid;
+}
+
+.column {
+  height: 300px;
+  text-align: center;
+  font-size: 48pt;
+}
+
+.column1 {
+  background-color: aliceblue;
+}
+
+.column2 {
+  background-color: goldenrod;
+}
+
+.column3 {
+  background-color: beige;
+}
+
+@media only screen and (max-width: 600px) {
+  .column {
+    height: 600px;
+  }
+}
