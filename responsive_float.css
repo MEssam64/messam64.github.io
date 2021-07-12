@@ -1,0 +1,78 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.header {
+  background-color: aquamarine;
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+  font-size: 48pt;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: darkgreen;
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+  font-size: 48pt;
+  font-weight: bold;
+  clear: both;
+}
+
+.menu {
+  background-color: darkgreen;
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+  font-weight: bold;
+  clear: both;
+  float: left;
+  width: 100%;
+}
+
+.menuitem {
+  float: left;
+  padding: 10px;
+  font-size: large;
+  border: 1px solid;
+}
+
+.column {
+  height: 300px;
+  vertical-align: middle;
+  text-align: center;
+  margin: auto;
+  font-size: 48pt;
+}
+
+.column1 {
+  float: left;
+  width: 25%;
+  background-color: aliceblue;
+}
+
+.column2 {
+  float: right;
+  width: 25%;
+  background-color: beige;
+}
+
+.column3 {
+  float: right;
+  width: 50%;
+  background-color: goldenrod;
+}
+
+@media only screen and (max-width: 600px) {
+  .column1,
+  .column2 {
+    width: 50%;
+  }
+
+  .column3 {
+    clear: both;
+    width: 100%;
+  }
+}
