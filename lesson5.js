@@ -138,8 +138,3 @@ console.log(myFunctionTest([3, 3, 5], function () { return getEqualTo([3, 9, 3, 
 console.log(myFunctionTest(378, function () { return getProduct([2, 3, 9, 7]); }));
 // Expected FAILED
 console.log(myFunctionTest(350, function () { return getProduct([2, 3, 9, 7]); }));
-
-console.log(window);
-console.log(document);
-console.log(location);
-console.log(navigator);
