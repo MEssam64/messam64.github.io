@@ -1,0 +1,60 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "post1"
+    },
+    {
+      "id": 2,
+      "title": "post2"
+    },
+    {
+      "id": 3,
+      "title": "post3"
+    },
+    {
+      "id": 4,
+      "title": "post4"
+    }
+  ],
+  "profile": {
+    "name": "MEssam"
+  },
+  "comments": [
+    {
+      "id": 1,
+      "body": "comment 1 on post 1",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "comment 2 on post 1",
+      "postId": 1
+    },
+    {
+      "id": 3,
+      "body": "comment 3 on post 3",
+      "postId": 3
+    }
+    {
+      "id": 4,
+      "body": "comment 4 on post 2",
+      "postId": 2
+    }
+    {
+      "id": 5,
+      "body": "comment 5 on post 3",
+      "postId": 3
+    },
+    {
+      "id": 6,
+      "body": "comment 6 on post 4",
+      "postId": 4
+    },
+    {
+      "id": 7,
+      "body": "comment 7 on post 4",
+      "postId": 1
+    }
+  ]
+}
